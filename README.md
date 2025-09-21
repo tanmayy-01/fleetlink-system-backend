@@ -85,11 +85,6 @@ A robust Node.js backend API for managing logistics vehicle bookings with real-t
 | `PATCH` | `/api/bookings/:id/status` | Update booking status | `{ status }` |
 | `DELETE` | `/api/bookings/:id` | Cancel booking | - |
 
-### Health Check
-
-| Method | Endpoint | Description |
-|--------|----------|-------------|
-| `GET` | `/health` | Server health status |
 
 ## 📊 Data Models
 
