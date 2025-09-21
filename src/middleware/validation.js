@@ -154,7 +154,8 @@ const bookingSchema = Joi.object({
  * @param {Joi.Schema} schema - Joi validation schema
  * @param {string} source - Source of data to validate ('body', 'query', 'params')
  */
-const validate = (schema, source = 'body') => {
+const 
+validate = (schema, source = 'body') => {
   return (req, res, next) => {
     const dataToValidate = req[source];
     
